@@ -7,7 +7,8 @@ import isEqual from 'lodash/isEqual'
 const teachKidsToListenToMomAndDad = ({currentState, strategy}) =>
     assert(isEqual(currentState, {
         child1Age: 4,
-        childObeysParentsPercentage: .20,
+        child2Age: 5,
+        childrenObeyParentsPercentage: .20,
         issues: [
             'Simple tasks involving the kids take way too long',
             'They don\'t understand that we see the bigger picture',
